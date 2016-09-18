@@ -1,0 +1,30 @@
+{
+  "name": "http-head",
+  "version": "0.1.0",
+  "description": "Get metadata from a remote resource",
+  "bin": {
+    "http-head": "lib/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/*.js test/*.js",
+    "pretest": "npm run lint",
+    "test": "tape test/*.test.js"
+  },
+  "keywords": [
+    "generator-npm-pasta"
+  ],
+  "author": "rodowi",
+  "license": "ISC",
+  "repository": "rodowi/http-head",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
