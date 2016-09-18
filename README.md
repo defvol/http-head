@@ -32,3 +32,7 @@ Run health checks on datasets hosted in CKAN:
 ```
 geokan --format GeoJSON | jq '.[].uri' | http-head
 ```
+
+### Similar work
+
+[finnp/node-request-headers](https://github.com/finnp/node-request-headers)
