@@ -1,6 +1,6 @@
 {
   "name": "http-head",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Get metadata from a remote resource",
   "bin": {
     "http-head": "lib/cli.js"
